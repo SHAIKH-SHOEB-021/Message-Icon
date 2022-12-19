@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A842461529503D950043292B /* Message_IconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842461429503D950043292B /* Message_IconApp.swift */; };
+		A842461729503D950043292B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842461629503D950043292B /* ContentView.swift */; };
+		A842461929503D970043292B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A842461829503D970043292B /* Assets.xcassets */; };
+		A842461C29503D970043292B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A842461B29503D970043292B /* Preview Assets.xcassets */; };
+		A842462629503D970043292B /* Message_IconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842462529503D970043292B /* Message_IconTests.swift */; };
+		A842463029503D970043292B /* Message_IconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842462F29503D970043292B /* Message_IconUITests.swift */; };
+		A842463229503D970043292B /* Message_IconUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842463129503D970043292B /* Message_IconUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A842462229503D970043292B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A842460929503D950043292B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A842461029503D950043292B;
+			remoteInfo = "Message Icon";
+		};
+		A842462C29503D970043292B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A842460929503D950043292B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A842461029503D950043292B;
+			remoteInfo = "Message Icon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A842461129503D950043292B /* Message Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Message Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A842461429503D950043292B /* Message_IconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message_IconApp.swift; sourceTree = "<group>"; };
+		A842461629503D950043292B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A842461829503D970043292B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A842461B29503D970043292B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A842462129503D970043292B /* Message IconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Message IconTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A842462529503D970043292B /* Message_IconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message_IconTests.swift; sourceTree = "<group>"; };
+		A842462B29503D970043292B /* Message IconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Message IconUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A842462F29503D970043292B /* Message_IconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message_IconUITests.swift; sourceTree = "<group>"; };
+		A842463129503D970043292B /* Message_IconUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message_IconUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A842460E29503D950043292B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A842461E29503D970043292B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A842462829503D970043292B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A842460829503D950043292B = {
+			isa = PBXGroup;
+			children = (
+				A842461329503D950043292B /* Message Icon */,
+				A842462429503D970043292B /* Message IconTests */,
+				A842462E29503D970043292B /* Message IconUITests */,
+				A842461229503D950043292B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A842461229503D950043292B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A842461129503D950043292B /* Message Icon.app */,
+				A842462129503D970043292B /* Message IconTests.xctest */,
+				A842462B29503D970043292B /* Message IconUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A842461329503D950043292B /* Message Icon */ = {
+			isa = PBXGroup;
+			children = (
+				A842461429503D950043292B /* Message_IconApp.swift */,
+				A842461629503D950043292B /* ContentView.swift */,
+				A842461829503D970043292B /* Assets.xcassets */,
+				A842461A29503D970043292B /* Preview Content */,
+			);
+			path = "Message Icon";
+			sourceTree = "<group>";
+		};
+		A842461A29503D970043292B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A842461B29503D970043292B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A842462429503D970043292B /* Message IconTests */ = {
+			isa = PBXGroup;
+			children = (
+				A842462529503D970043292B /* Message_IconTests.swift */,
+			);
+			path = "Message IconTests";
+			sourceTree = "<group>";
+		};
+		A842462E29503D970043292B /* Message IconUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A842462F29503D970043292B /* Message_IconUITests.swift */,
+				A842463129503D970043292B /* Message_IconUITestsLaunchTests.swift */,
+			);
+			path = "Message IconUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A842461029503D950043292B /* Message Icon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A842463529503D970043292B /* Build configuration list for PBXNativeTarget "Message Icon" */;
+			buildPhases = (
+				A842460D29503D950043292B /* Sources */,
+				A842460E29503D950043292B /* Frameworks */,
+				A842460F29503D950043292B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Message Icon";
+			productName = "Message Icon";
+			productReference = A842461129503D950043292B /* Message Icon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A842462029503D970043292B /* Message IconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A842463829503D970043292B /* Build configuration list for PBXNativeTarget "Message IconTests" */;
+			buildPhases = (
+				A842461D29503D970043292B /* Sources */,
+				A842461E29503D970043292B /* Frameworks */,
+				A842461F29503D970043292B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A842462329503D970043292B /* PBXTargetDependency */,
+			);
+			name = "Message IconTests";
+			productName = "Message IconTests";
+			productReference = A842462129503D970043292B /* Message IconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A842462A29503D970043292B /* Message IconUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A842463B29503D970043292B /* Build configuration list for PBXNativeTarget "Message IconUITests" */;
+			buildPhases = (
+				A842462729503D970043292B /* Sources */,
+				A842462829503D970043292B /* Frameworks */,
+				A842462929503D970043292B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A842462D29503D970043292B /* PBXTargetDependency */,
+			);
+			name = "Message IconUITests";
+			productName = "Message IconUITests";
+			productReference = A842462B29503D970043292B /* Message IconUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A842460929503D950043292B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A842461029503D950043292B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A842462029503D970043292B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A842461029503D950043292B;
+					};
+					A842462A29503D970043292B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A842461029503D950043292B;
+					};
+				};
+			};
+			buildConfigurationList = A842460C29503D950043292B /* Build configuration list for PBXProject "Message Icon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A842460829503D950043292B;
+			productRefGroup = A842461229503D950043292B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A842461029503D950043292B /* Message Icon */,
+				A842462029503D970043292B /* Message IconTests */,
+				A842462A29503D970043292B /* Message IconUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A842460F29503D950043292B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A842461C29503D970043292B /* Preview Assets.xcassets in Resources */,
+				A842461929503D970043292B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A842461F29503D970043292B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A842462929503D970043292B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A842460D29503D950043292B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A842461729503D950043292B /* ContentView.swift in Sources */,
+				A842461529503D950043292B /* Message_IconApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A842461D29503D970043292B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A842462629503D970043292B /* Message_IconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A842462729503D970043292B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A842463029503D970043292B /* Message_IconUITests.swift in Sources */,
+				A842463229503D970043292B /* Message_IconUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A842462329503D970043292B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A842461029503D950043292B /* Message Icon */;
+			targetProxy = A842462229503D970043292B /* PBXContainerItemProxy */;
+		};
+		A842462D29503D970043292B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A842461029503D950043292B /* Message Icon */;
+			targetProxy = A842462C29503D970043292B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A842463329503D970043292B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A842463429503D970043292B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A842463629503D970043292B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Message Icon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Message-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A842463729503D970043292B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Message Icon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Message-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A842463929503D970043292B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Message-IconTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Message Icon.app/Message Icon";
+			};
+			name = Debug;
+		};
+		A842463A29503D970043292B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Message-IconTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Message Icon.app/Message Icon";
+			};
+			name = Release;
+		};
+		A842463C29503D970043292B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Message-IconUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Message Icon";
+			};
+			name = Debug;
+		};
+		A842463D29503D970043292B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nimapinfotech.Message-IconUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Message Icon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A842460C29503D950043292B /* Build configuration list for PBXProject "Message Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A842463329503D970043292B /* Debug */,
+				A842463429503D970043292B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A842463529503D970043292B /* Build configuration list for PBXNativeTarget "Message Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A842463629503D970043292B /* Debug */,
+				A842463729503D970043292B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A842463829503D970043292B /* Build configuration list for PBXNativeTarget "Message IconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A842463929503D970043292B /* Debug */,
+				A842463A29503D970043292B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A842463B29503D970043292B /* Build configuration list for PBXNativeTarget "Message IconUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A842463C29503D970043292B /* Debug */,
+				A842463D29503D970043292B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A842460929503D950043292B /* Project object */;
+}
